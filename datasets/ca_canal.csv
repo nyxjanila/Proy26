@@ -1,0 +1,6 @@
+c_canal_transaccion,d_canal_transaccion
+1,cheque
+2,ventanilla bancaria
+3,comercio elctronico
+4,traspaso mismo banco
+5,traspaso otra banco
