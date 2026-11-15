@@ -134,7 +134,7 @@ jobs:
                 "source": "WORKSPACE",
                 "base_parameters": {
                   "storageName": "proy26",
-                  "catalogwk": "catalog_prod"
+                  "catalogwk": "catalog_au"
                 }
               },
               "existing_cluster_id": "$CLUSTER_ID",
@@ -149,7 +149,7 @@ jobs:
                 "source": "WORKSPACE",
                 "base_parameters": {
                   "container": "raw",
-                  "catalogo": "catalog_prod",
+                  "catalogo": "catalog_au",
                   "esquema": "bronze",
                   "storageName": "proy26"
                 }
@@ -171,7 +171,7 @@ jobs:
                 "source": "WORKSPACE",
                 "base_parameters": {
                   "container": "raw",
-                  "catalogo": "catalog_prod",
+                  "catalogo": "catalog_au",
                   "esquema": "bronze",
                   "storageName": "proy26"
                 }
@@ -193,7 +193,7 @@ jobs:
                 "source": "WORKSPACE",
                 "base_parameters": {
                   "container": "raw",
-                  "catalogo": "catalog_prod",
+                  "catalogo": "catalog_au",
                   "esquema": "bronze",
                   "storageName": "proy26"
                 }
@@ -214,7 +214,7 @@ jobs:
                 "notebook_path": "/proyecto/llamadas/notebooks/3.Transform",
                 "source": "WORKSPACE",
                 "base_parameters": {
-                  "catalogo": "catalog_prod",
+                  "catalogo": "catalog_au",
                   "esquema_source": "bronze",
                   "esquema_sink": "silver"
                 }
@@ -241,7 +241,7 @@ jobs:
                 "notebook_path": "/proyecto/llamadas/notebooks/4.Load",
                 "source": "WORKSPACE",
                 "base_parameters": {
-                  "catalogo": "catalog_prod",
+                  "catalogo": "catalog_au",
                   "esquema_source": "silver",
                   "esquema_sink": "golden"
                 }
@@ -262,7 +262,7 @@ jobs:
                 "notebook_path": "/proyecto/llamadas/notebooks/5.Grants_Medallion",
                 "source": "WORKSPACE",
                 "base_parameters": {
-                  "catalogo": "catalog_prod"
+                  "catalogo": "catalog_au"
                 }
               },
               "existing_cluster_id": "$CLUSTER_ID",
