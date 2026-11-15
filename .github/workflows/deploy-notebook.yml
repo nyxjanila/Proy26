@@ -187,7 +187,7 @@ jobs:
             },
             {
               "task_key": "Ingest_trx_verificacion",
-              "description": "Ejecuta notebook ingest_racing con parámetros",
+              "description": "Ejecuta notebook Ingest_trx_verificacion con parámetros",
               "notebook_task": {
                 "notebook_path": "/proyecto/llamadas/notebooks/2.Ingest_trx_verificacion",
                 "source": "WORKSPACE",
@@ -230,7 +230,7 @@ jobs:
                   "task_key": "Ingest_trx_bancarias"
                 },
                 {
-                  "task_key": "ingest_racing"
+                  "task_key": "Ingest_trx_verificacion"
                 }
               ]
             },
